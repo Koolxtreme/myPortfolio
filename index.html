@@ -5,15 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./styles/style.css">
+
+            <!--  Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+            <!--  Normalize  -->
     <link rel="stylesheet" href="./styles/normalize.css">
+            <!--  Custom CSS  -->
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
+    <div id="start" style="position: absolute;"></div>
     <header>
         <a href="#" class="logo">myPortfolio</a>
         <nav class="navigation__bar">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="#start">Home</a></li>
                 <li><a href="#aboutme">About me</a></li>
                 <li><a href="#works">My Projects</a></li>
                 <li><a href="#contact">Contac me</a></li>
@@ -23,7 +31,7 @@
             <div class="navigation__menu-slide" id="slide">
                 <div class="navigation__menu-slidebtn" id="close"><img src="./src/icons/close.png" alt=""></div>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#start">Home</a></li>
                     <li><a href="#aboutme">About me</a></li>
                     <li><a href="#works">My Projects</a></li>
                     <li><a href="#contact">Contac me</a></li>
@@ -66,7 +74,7 @@
             <h2>There you can see some of my works</h2>
             <div class="git__flexbox">
                 <div class="git__flexbox-div">        
-                    <img src="./src/img/1.jpg" alt="image1" srcset="">
+                    <a href="https://github.com/Koolxtreme/newsBlog" target="__blank"><img src="./src/img/1.jpg" alt="image1" srcset=""></a>
                     <p>A site focused to show technology, games, vehicles and other news</p>          
                 </div>
                 <div class="git__flexbox-div">    
@@ -94,7 +102,7 @@
                         <p>Web app that desing a pattern in HTML Canvas according the number of lines you give.</p>          
                     </div>
                     <div class="git__flexbox-div">    
-                        <img src="./src/img/5.jpg" alt="imagen8" srcset="">
+                        <a href="https://github.com/Koolxtreme/Koolwitch" target="_blank"><img src="./src/img/5.jpg" alt="imagen8" srcset=""></a>
                         <p>Landing page for a restaurant to show te menu.</p>          
                     </div>
                     <div class="git__flexbox-div">    

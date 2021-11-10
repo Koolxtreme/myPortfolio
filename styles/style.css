@@ -9,6 +9,16 @@ body
 {
     background-image: url(../src/abstract-colorful-topographic-map-design-vector/14092.jpg); 
     min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+p::selection,
+b::selection,
+h2::selection,
+h3::selection,
+a::selection
+{
+    color: #fff;
+    background-color: rgba(81, 220, 238, 1);
 }
 
 /*          Start navigation bar         */
@@ -32,7 +42,7 @@ header a
 .logo
 {
     animation-name: logo;
-    animation-duration: 4s;
+    animation-duration: 1s;
     animation-fill-mode: both;
     animation-iteration-count: 3;
     animation-direction: alternate;
@@ -63,11 +73,6 @@ header a
         color: #b6f4ff;
     }
 }
-
-header .navigation__bar
-{
-    align-self: auto;
-}
 header .navigation__bar ul
 {
     list-style: none;
@@ -81,7 +86,7 @@ header .navigation__bar ul li
 }
 header .navigation__bar ul li:hover
 {
-    background-color: #51dcee;
+    background-color: rgba(81, 220, 238, 1);
 }
 header .navigation__bar ul li:hover > a
 {
@@ -107,7 +112,7 @@ header .navigation__bar, header .navigation__menu
     position: fixed;
     display: flex;
     justify-content: space-between;
-    background-color: #b6f4ff;
+    background-color: rgba(182, 244, 255, .9);
     font-size: 10px;
     padding: 20px 30px;
     width: 80%;
@@ -140,7 +145,10 @@ header .navigation__bar, header .navigation__menu
 {
     color: #fff;
 }
-
+.navigation__menu-ico img
+{
+    width: 35px
+}
 /*          Finished navigation bar          */
 
 
@@ -236,6 +244,10 @@ header .navigation__bar, header .navigation__menu
     background-color: #fffb;
     border-radius: 5px;
     padding: 10px;
+}
+.git__flexbox-div a
+{
+    margin-bottom: 25px;
 }
 .git__flexbox-div img
 {
