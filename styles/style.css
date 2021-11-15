@@ -216,6 +216,14 @@ header .navigation__bar, header .navigation__menu
     display: flex;
     justify-content: space-between;
 }
+.container__box-skillsGalleryImg
+{
+    width: 50px;
+}
+.container__box-skillsGalleryImg img
+{
+    width: 50px;
+}
 .git 
 {
     display: block;
